@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">MoneyTracker</string>
+    <string name="hello_str">Привет, мир!</string>
+</resources>

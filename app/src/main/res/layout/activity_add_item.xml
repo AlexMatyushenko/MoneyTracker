@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pattern"
+    tools:context=".AddItemActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="68dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:background="@null"
+            android:layout_marginLeft="22dp"
+            android:hint="Название"
+            android:maxLines="1"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_marginLeft="8dp"
+            android:background="@null"
+            android:hint="0 ₽"
+            android:gravity="right"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:enabled="false"
+            android:id="@+id/addButton"
+            android:layout_marginLeft="22dp"
+            android:background="@drawable/ic_add"
+            android:layout_marginRight="22dp"
+            android:layout_width="26dp"
+            android:layout_height="26dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
